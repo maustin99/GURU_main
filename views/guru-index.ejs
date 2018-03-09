@@ -1,0 +1,56 @@
+<style>
+  .guru-card{
+    float: left;   
+  }
+</style>
+
+<div id="gurus-main">
+  <h1>Gurus</h1>
+  <h3> Hello <%= user.name %>, who's gonna be your GURU today?</h3>
+  <div class="form-group">
+    <label for="exampleInputEmail1"></label>
+    <input type="search" class="form-control" id="searchGuruField" aria-describedby="searchHelp" placeholder="Search...">
+    <small id="searchHelp" class="form-text text-muted">Search for your Guru</small>
+  </div>
+  <button type="search"  id="searchGuruBtn" class="btn btn-primary">Search</button>
+  <button type="search"  id="allGurusBtn" class="btn btn-info">All Gurus</button>
+  <span id="errorSpan"></span>
+  <br>
+  
+  <div id="row container-fluid" >
+      <div class="col-lg-11 col-md-12 col-adjust container-fluid">
+  <div id='results'>
+  <% gurus.forEach((guru) => { %>  <!-- new METHOD to go through object -->
+    <div id="<%= guru.id %>"  class="card guru-card activities-guru-card" style="width: 18rem; " >
+        <div class="card-body">
+            <div id="card-profile-div">
+            <img id="card-profile" src="<%= guru.picture_url %>">
+            </div>
+            <h5 class="card-title"><%= guru.name %></h5>
+            
+            Location: <%= guru.zip %>
+            <ul>
+                <li><b>Specialties:</b></li>
+            <% guru.activities.forEach((activity) => { %>
+                
+               <% for (x=0; x <  activities.length; x++) { %>
+                            <% if (activities[x].id === String(activity)) { %>
+                                <li><%= activities[x].type %></li>
+                                <% } %>
+                  <% } %> 
+              <% }) %>
+            
+            </ul>
+          </div> <!-- end card-body -->
+    
+      <!-- <div class="card-body">
+        <h5 class="card-title"><%= guru.name %></h5>
+        <p class="card-text"><%= guru.activities %></p>
+      </div> -->
+    </div>  <!-- end guru card -->
+  <% }) %>
+</div><!-- results -->
+</div><!-- end COL -->
+</div><!-- container -->
+
+<script src="/js/app.js"></script>

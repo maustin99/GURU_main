@@ -1,0 +1,61 @@
+ <style>
+    
+    .activities-guru-card{
+      
+        
+    }
+
+</style>
+
+<div id="activities-main">
+<br>
+    <div class="row-fluid activity-guru-picture" id="" >
+     <img src="<%= activity.picture_URL %>" class="">
+          <h2 class="act-h2 call-<%= activity.css %>"><%= activity.type %></h2>
+    </div>
+    <p id="activity-description" ><%= activity.description %></p>
+     
+  <br>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1"></label>
+    <input type="search" class="form-control" id="searchActivityGuruField" aria-describedby="searchHelp" placeholder="Search...">
+    <small id="searchHelp" class="form-text text-muted">Search for your Guru, Studio, or Location (ZIP Code)</small>
+  </div>
+ 
+  <button type="search"  id="searchActivityBtn" class="btn btn-primary">Search</button>
+  <button type="search"  id="allGurusBtn" class="btn btn-info">Show All Gurus</button>
+  <span id="errorSpan"></span>
+
+<br>
+
+  <div id='results'>
+
+    <% gurus.forEach((theGuru) => { %>  <!-- new METHOD to go through object -->
+      
+      <div id="<%= theGuru.id %>"  class="activities-guru-card act-guru-card " >
+          <div class="card-body">
+            <h5 class="card-title"><%= theGuru.name %></h5>
+            
+            Location: <%= theGuru.zip %>
+            <ul>
+                <li><b>Specialties:</b></li>
+            <% theGuru.activities.forEach((activity) => { %>
+                
+               <% for (x=0; x <  allAct.length; x++) { %>
+                            <% if (allAct[x].id === String(activity)) { %>
+                                <li><%= allAct[x].type %></li>
+                                <% } %>
+                  <% } %> 
+              <% }) %>
+            
+            </ul>
+          </div> <!-- end card-body -->
+        </div> <!-- end activities -->
+  <% }) %>
+  </div> <!-- END RESULTS -->
+
+
+
+</div>
+<script src="/js/app.js"></script>

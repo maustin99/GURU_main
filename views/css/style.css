@@ -1,0 +1,572 @@
+
+@font-face {
+    font-family: 'champagne__limousinesregular';
+    src: url('/fonts/champagne__limousines-webfont.woff2') format('woff2'),
+         url('/fonts/champagne__limousines-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#nav-img{
+    height:50px;
+}
+
+#navbar-brand-guru{
+    margin:0px;
+    padding: 0px;
+    font-size: 25pt;
+    float: right;
+    margin-top: 4px;
+    font-family: 'champagne__limousinesregular';
+
+}
+
+body{
+    
+    background-repeat: no-repeat;
+   
+    background-position: top; 
+    background-size: cover;
+}
+
+.guru-box{
+    width:100%;
+    height: 100%;  
+    text-align: center;
+    z-index: -1;
+}
+.guru-title{
+
+    width:100%;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 850px;
+    display: inline-block;
+    padding: 0px;
+    margin-top: 400px;
+    text-align: center;
+    border: 0px red solid;
+}
+.guru-title p{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'champagne__limousinesregular';
+    font-size: 70pt;
+}
+.guru-splash-text{
+    width:100%;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 850px;
+    border: 0px white solid;
+    text-align: center;
+}
+.guru-box ul{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 0px;
+    display: inline-block;
+      
+    border: 0px red solid;
+     }
+.guru-box li{
+   margin: 0px;
+   padding: 0px;
+   width:340px;
+   text-align: center;
+    color:white; 
+    float: left;
+    border: 0px yellow solid;
+    font-family: 'champagne__limousinesregular';
+    }
+
+    .guru-splash-text p{
+        font-size: 30pt;
+        text-transform: uppercase;
+        clear: both;
+    }
+   #myLogin-text a:link,  #myLogin-text a:visited {
+        color: white;
+        padding: 14px 25px;
+        text-align: center; 
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    #myLogin-text a:hover, a:active {
+        color:orange;
+    }
+
+
+
+
+
+
+.row {
+    border: red 0px solid;
+           
+}
+
+#guru_show_namecard{
+    border: red 0px solid;
+}
+
+.guru-col-left{
+    border: blue 0px solid;
+    height:600px;
+    float: left;
+    display: inline-block;
+    
+    overflow: hidden;
+
+}
+.guru-col-left img{
+   
+    height: 100%;
+   
+}
+
+.guru-col-right{
+    display: inline-block;
+    
+}
+
+#my_guru_card {
+    border: green 0px solid;
+    padding: 0px 100px 0px 75px;
+    text-align: center;
+}
+#my_guru_card li{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+}
+
+#my_guru_card h5{
+    margin-bottom: 40px;  
+}
+
+#my_guru_card_favorites{
+    margin:0;
+    padding: 0;
+}
+
+
+#activities-main{
+    
+    /*border: 1px solid blue;*/
+}
+
+.row-adjust{
+    
+}
+.col-adjust{
+    border: 0px solid blue;
+    
+}
+
+#results{
+    
+    border: 0px solid blue;
+}
+
+#card-profile-div{
+    overflow: hidden;
+    width:100%;
+    height:200px;
+    margin-bottom: 10px;
+    
+
+}
+#card-profile{
+    width:100%;
+    
+}
+
+.activity-card{
+    height:150px;
+    margin:5px;
+    border:0px solid rgb(25, 145, 145);
+    border-radius: 15px 15px 15px 15px;
+    float: left;
+}
+
+.activity-card p{
+    color: white;
+    font-size:20pt;
+    font-weight: bold;
+    margin-top: 75px;
+    text-shadow: -1px 0 white, 0 1px darkgrey, 1px 0 black, 0 -1px white;
+    
+}
+
+.activities-guru-card{
+
+    width: 200px;
+    height:100%;
+    margin:5px;
+    border:1px solid rgb(25, 145, 145);
+    border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center
+}
+
+.activities-guru-card ul{
+    list-style-type:none;
+    margin: 0px;
+}
+.activities-guru-card li{
+    margin-left:-40px;
+    margin-top:10px;
+}
+
+
+.card-title{    /* Activities/GURU Cards */
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    
+}
+
+
+/* ---- ACTIVITIES ------*/
+
+.yoga{
+    background-image: url("/images/yoga_3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+
+.pilates{
+    background-image: url("/images/pilates_slide_3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.martialarts{
+    background-image: url("/images/martial_Arts_01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.boxing{
+    background-image: url("/images/boxing_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.running{
+    background-image: url("/images/running_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.ldrunning{
+    background-image: url("/images/running_ld2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+    
+    
+}
+.ldrunning p{
+    font-size:18pt;
+    font-weight: bold;
+    text-shadow: 0px 0 white, 0 0px darkgrey, 0px 0 black, 0 0px white;
+    margin-top: 55px;
+}
+.barre{
+    background-image: url("/images/barre_1.png");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.freeweights{
+    background-image: url("/images/free_weights_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.rowing{
+    background-image: url("/images/rowing_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.cycling{
+    background-image: url("/images/cycling_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.dance{
+    background-image: url("/images/dance_music-girl_4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.meditation{
+    background-image: url("/images/meditation_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.spiritualawakening{
+    background-image: url("/images/spiritual_awakening.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.moonceremony{
+    background-image: url("/images/moon_ceremony.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.lunarhikes{
+    background-image: url("/images/lunar_hikes.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.nutrition{
+    background-image: url("/images/nutrition_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.tantricdance{
+    background-image: url("/images/tantric_dance3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.hotyoga{
+    background-image: url("/images/hot yoga_4.png");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.natalyoga{
+    background-image: url("/images/postnatal_yoga_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: center; 
+    background-size: 105% 115%;
+
+}
+.natalyoga p{
+    font-size:18pt;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px darkgrey, 1px 0 black, 0 -1px white;
+    margin-top: 55px;
+    color: rgb(57, 155, 155);
+}
+.pranayama{
+    background-image: url("/images/Pranayama_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: center; 
+    background-size: 105% 105%;
+}
+.midwife{
+    background-image: url("/images/midwife__3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: center; 
+    background-size: 100% 125%;
+}
+.acrobatics{
+    background-image: url("/images/acrobatics_4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: 100% 105%;
+}
+.bodypump{
+    background-image: url("/images/body_pump.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.crossfit{
+    background-image: url("/images/crossfit_5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.calisthenics{
+    background-image: url("/images/Calisthenics_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.kettlebell{
+    background-image: url("/images/kettlebell.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.core{
+    background-image: url("/images/coretraining_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.zumba{
+    background-image: url("/images/zumba_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.trx{
+    background-image: url("/images/trx_5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.chanting{
+    background-image: url("/images/chanting_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.yoganidra{
+    background-image: url("/images/yoga_Nidra_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.spinning{
+    background-image: url("/images/spinning.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: 100% 120%;
+}
+.marathontraining{
+    background-image: url("/images/running_marathon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.fencing{
+    background-image: url("/images/fencing_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.selfdefense{
+    background-image: url("/images/self_defense_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+.poledancing{
+    background-image: url("/images/pole_dancing_3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: top; 
+    background-size: cover;
+}
+/* ------- MAIN PICTURES ------------*/
+
+.activity-guru-picture{   /* -- DIV -- */
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-position: ; 
+    background-size: cover;
+    border:  0px blue solid;
+
+    max-width: 850px;
+    max-height: 400px;
+    position: relative;
+    overflow: hidden;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.activity-guru-picture img{
+    max-width: 850px;
+    max-height: 100%;
+    width:100%;
+   height:100%;
+
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.act-h2{
+    position: absolute;
+    bottom: 8px;
+    left: 60px;
+    z-index: 2;
+
+    font-size: 40pt;
+    color: white;
+    text-shadow: 1px 0 white, 0 3px teal, 1px 0 black, 0 0px white;
+
+}
+
+.call-natalyoga{
+  color:lightgrey;
+    
+}
+
+#activity-description{
+    margin-top: 15px;
+    width:75%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* ---- END ACTIVITIES ------*/
