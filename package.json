@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ninakivu/guru.git"
+    "url": "git+git@github.com:maustin99/GURU_main.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ninakivu/guru/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/ninakivu/guru#readme",
+  "homepage": "",
   "dependencies": {
     "@google/maps": "^0.4.5",
     "bcrypt-nodejs": "^0.0.3",
